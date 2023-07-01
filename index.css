@@ -1,0 +1,96 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title
+{
+    color:#48752e
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+button {
+    background: #5f9341;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #5f9341;
+    font-weight: bold;
+}
+
+#save-tab-btn
+{
+    background-color: white;
+    color:#5f9341;
+}
+
+#delete-btn
+{
+    background-color: #347528;
+    border: 2px solid #347528;
+    color:white;
+}
+
+
+button:hover{
+    transition: all 1s;
+    transform: scale(1.05);
+}
+
+
+#list-title
+{
+    text-align: start;
+    margin-top: 30px;
+    font-weight: bold;
+    color:#5f9341;
+}
+
+
+ul {
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 10px 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+li a {
+    color: #5f9341;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+footer
+{
+    margin: -8px -10px;
+    background-color: #5f9341;
+}
